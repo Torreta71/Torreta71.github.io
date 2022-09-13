@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="functions.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div class="Input" width="780px">
+
+        <textarea id="inputText" placeholder="Ingresa tu texto aquí..." onclick="ClearText()" oninput="CheckLetters()"></textarea>
+        <p id="alertText">*Solo letras minúsculas.</p>
+        <div class="Buttons">
+            <button class="encrypt" onclick="Encrypt()">ENCRIPTAR</button>
+            <button class="decrypt" onclick="Decrypt()">DESENCRIPTAR</button>
+        </div>
+        <div id="output">
+            <textarea id="outputText" placeholder="Aquí aparecerá tu mensaje secreto..."></textarea>
+            <button class="copy" onclick="CopyResult()">COPIAR</button>
+            <button class="copy2" onclick="CopyAndPasteResult()">COPIAR E INSERTAR</button>
+        </div>
+
+    </div>
+    <img class="topsecret" src="https://cdn-icons-png.flaticon.com/512/924/924946.png" alt="Top Secret img"/>
+    
+
+</body>
+</html>
