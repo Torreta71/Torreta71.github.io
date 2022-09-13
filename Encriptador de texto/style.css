@@ -1,0 +1,161 @@
+﻿body {
+    background-color: #304c67;
+    font-family: 'Montserrat', sans-serif;
+}
+.input{
+    display:inline-block;
+} 
+.output {
+    text-align: center;
+
+}
+
+#alertText {
+    margin-top: 1%;
+    margin-left: 22%;
+    font-size: 22px;
+    color: #FEFEFE;
+}
+#inputText {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 510px;
+    height: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: #c7e0e0;
+    color: steelblue;
+}
+
+#outputText {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 510px;
+    height: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: #c7e0e0;
+    color: steelblue;
+}
+.encrypt {
+    background-color: #cac4a2;
+    box-shadow: none;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3%;
+    margin-left: 11%;
+    width: 280px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #304c67;
+}
+.decrypt {
+    background-color: #cac4a2;
+    box-shadow: none;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 280px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #304c67;
+}
+.copy {
+
+    background-color: #cac4a2;
+    box-shadow: none;
+    border-radius: 8px;
+    border: none;
+    margin-left:6.5%;
+    margin-top: 2%;
+    width: 340px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #304c67;
+}
+.copy2 {
+    background-color: #cac4a2;
+    box-shadow: none;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 340px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #304c67;
+}
+
+@media screen and (max-width:840px) {
+    .Input {
+        text-align: center;
+    }
+    .inputText {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        font-size:20px;
+    }
+    .outputText {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+    .encrypt {
+        margin-top: 10%;
+        margin-left: 0;
+        width: 25%;
+        text-align: center;
+    }
+
+    .decrypt {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 25%;
+    }
+}
+@media screen and (max-width:500px) {
+    .Input {
+        text-align: center;
+    }
+
+    .inputText {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .outputText {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .encrypt {
+        margin-top: 10%;
+        margin-left: 0;
+        width: 40%;
+        text-align: center;
+    }
+
+    .decrypt {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 40%;
+    }
+}
